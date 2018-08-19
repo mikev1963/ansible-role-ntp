@@ -37,7 +37,7 @@ None.
           ntp_timezone: America/New_York
           ntp_area:     'north-america'
 
-*Inside `vars/main.yml`*:
+*Inside `defaults/main.yml`*:
 
     ntp_timezone:   America/New York
     ntp_area:       'north-america'
