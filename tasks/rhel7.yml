@@ -1,0 +1,6 @@
+---
+- name: Remove chrony client package
+  yum:
+    name: chrony
+    state: absent
+

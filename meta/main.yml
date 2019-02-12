@@ -4,7 +4,7 @@ dependencies: []
 galaxy_info:
   author: Michael A. Ventarola
   description: NTP installation and configuration for Redhat Linux.
-  min_ansible_version: 2.4
+  min_ansible_version: 1.0
   platforms:
     - name: EL
       versions:

@@ -1,0 +1,17 @@
+---
+ntp_packages:
+  - ntp
+  - tzdata
+
+ntp_daemon: ntpd
+ntp_driftfile: /var/lib/ntp/drift
+
+ntp_servers:
+  - "0.{{ ntp_area }}.pool.ntp.org iburst"
+  - "1.{{ ntp_area }}.pool.ntp.org iburst"
+  - "2.{{ ntp_area }}.pool.ntp.org iburst"
+  - "3.{{ ntp_area }}.pool.ntp.org iburst"
+
+ntp_restrict:
+  - "127.0.0.1"
+  - "::1"

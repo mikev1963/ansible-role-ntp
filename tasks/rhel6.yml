@@ -1,0 +1,10 @@
+---
+- name: Verify clock file exists.
+  stat: path=/etc/sysconfig/clock
+  register: clock_file
+
+- name: Create clock file
+  template:
+    src: clock.j2
+    dest: /etc/sysconfig/clock
+  when: clock_file.stat.exists == false
