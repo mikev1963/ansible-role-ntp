@@ -22,14 +22,14 @@ Set the [NTP Pool Area](http://support.ntp.org/bin/view/Servers/NTPPoolServers) 
 
 ## NTP Servers
 
-   AREA                       HOSTNAME
-   ----                       --------
-   Worldwide                  pool.ntp.org
-   Asia                       asia.pool.ntp.org
-   Europe                     europe.pool.ntp.org
-   North America              north-america.pool.ntp.org
-   Oceania                    aceania.pool.ntp.org
-   South America              south-america.pool.ntp.org
+   "AREA                       HOSTNAME"
+  " ----                       --------"
+   "Worldwide                  pool.ntp.org"
+   "Asia                       asia.pool.ntp.org"
+   "Europe                     europe.pool.ntp.org"
+   "North America              north-america.pool.ntp.org"
+   "Oceania                    aceania.pool.ntp.org"
+   "South America              south-america.pool.ntp.org"
 
 
 ## Dependencies
