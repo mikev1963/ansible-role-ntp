@@ -20,6 +20,18 @@ Set the [NTP Pool Area](http://support.ntp.org/bin/view/Servers/NTPPoolServers) 
       - "2{{ ntp_area }}.pool.ntp.org iburst"
       - "3{{ ntp_area }}.pool.ntp.org iburst"
 
+## NTP Servers
+
+   AREA                       HOSTNAME
+   ----                       --------
+   Worldwide                  pool.ntp.org
+   Asia                       asia.pool.ntp.org
+   Europe                     europe.pool.ntp.org
+   North America              north-america.pool.ntp.org
+   Oceania                    aceania.pool.ntp.org
+   South America              south-america.pool.ntp.org
+
+
 ## Dependencies
 
 None.
