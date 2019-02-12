@@ -1,7 +1,4 @@
 ---
-- name: Include OS-specific variables.
-  include_vars: "{{ ansible_os_family }}.yml"
-
 - include_tasks: rhel6.yml
   when: ansible_os_family == 'RedHat' and ansible_distribution_version.split('.')[0] == '6'
 

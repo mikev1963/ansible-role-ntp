@@ -9,5 +9,5 @@ ntp_timezone: America/New_York
 # Oceania	        oceania.pool.ntp.org
 # South America	  south-america.pool.ntp.org
 
-ntp_area: 'north-america'
+ntp_area: ''
 
