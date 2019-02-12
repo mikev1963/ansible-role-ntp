@@ -23,7 +23,8 @@ Set the [NTP Pool Area](http://support.ntp.org/bin/view/Servers/NTPPoolServers) 
 ## NTP Pools
 
     NTP pools:
-      #AREA                       HOSTNAME
+      AREA                       HOSTNAME
+      ------------------------------------------------------
       Worldwide                  pool.ntp.org
       Asia                       asia.pool.ntp.org
       Europe                     europe.pool.ntp.org
