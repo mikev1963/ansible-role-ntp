@@ -1,4 +1,6 @@
 - hosts:  all
 
   roles:
-    - ntp
+    - role: ntp
+      ntp_timezone: "{{ 'America/New_York' }}"
+      ntp_area: "{{ 'north-america' }}"
